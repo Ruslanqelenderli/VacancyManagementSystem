@@ -1,0 +1,69 @@
+﻿@page
+@model VMS.UI.Pages.ActionModel
+@{
+    <div class="container mt-5">
+        <h2>Müraciətlər</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ad Soyad</th>
+                    <th>Vakansiya</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var action in Model.Actions)
+                {
+                    var rowColor = action.Percent < 50 ? "red" :
+                    action.Percent >= 50 && action.Percent < 75 ? "yellowgreen" :
+                    "green";
+                    <tr style="color : @rowColor">
+                        <td>@action.FullName</td>
+                        <td>@action.WorkTypeName</td>
+                        <td>
+                            <a asp-page="/Detail" asp-route-actionId="@action.Id" class="btn btn-primary">Ətraflı</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div>
+            @if (Model.TotalPage > 1)
+            {
+                int startPage = Math.Max(1, Model.CurrentPage - 2);
+                int endPage = Math.Min(Model.TotalPage, Model.CurrentPage + 2);
+
+                if (startPage > 1)
+                {
+                    <a asp-page="/Action" asp-route-pageNumber="1">1</a>
+                    if (startPage > 2)
+                    {
+                        <span>...</span>
+                    }
+                }
+
+                for (int i = startPage; i <= endPage; i++)
+                {
+                    if (i == Model.CurrentPage)
+                    {
+                        <strong>@i</strong>
+                    }
+                    else
+                    {
+                        <a asp-page="/Action" asp-route-pageNumber="@i">@i</a>
+                    }
+                }
+
+                if (endPage < Model.TotalPage)
+                {
+                    if (endPage < Model.TotalPage - 1)
+                    {
+                        <span>...</span>
+                    }
+                    <a asp-page="/Action" asp-route-pageNumber="@Model.TotalPage">@Model.TotalPage</a>
+                }
+            }
+        </div>
+    </div>
+}

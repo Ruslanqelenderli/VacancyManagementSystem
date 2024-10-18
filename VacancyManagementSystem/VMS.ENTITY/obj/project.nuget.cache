@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "w3ZoPvYws4DK/XyvtOPgdYCPmKzrAHS4LBwQr1BVLFyWtggDt+Soq9plDMgRy8QljVfhA3Lyu+Qz7QhE/OprlQ==",
+  "success": true,
+  "projectFilePath": "D:\\VMS\\VacancyManagementSystem\\VMS.ENTITY\\VMS.ENTITY.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.0.100.21:8888/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

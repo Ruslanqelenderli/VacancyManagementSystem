@@ -1,0 +1,305 @@
+2024-10-14 11:21:09.8556 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-10-14 11:21:09.9388 Debug Hosting starting 
+2024-10-14 11:21:10.1433 Warn The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert. 
+2024-10-14 11:21:10.2145 Info Now listening on: https://localhost:7281 
+2024-10-14 11:21:10.2145 Info Now listening on: http://localhost:5149 
+2024-10-14 11:21:10.2145 Debug Loaded hosting startup assembly VMS.API 
+2024-10-14 11:21:10.2145 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-14 11:21:10.2145 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-14 11:21:10.2145 Info Application started. Press Ctrl+C to shut down. 
+2024-10-14 11:21:10.2145 Info Hosting environment: Development 
+2024-10-14 11:21:10.2145 Info Content root path: D:\VMS\VacancyManagementSystem\VMS.API 
+2024-10-14 11:21:10.2145 Debug Hosting started 
+2024-10-14 11:21:10.6713 Debug Connection id "0HN7C433KTJU0" accepted. 
+2024-10-14 11:21:10.6713 Debug Connection id "0HN7C433KTJU0" started. 
+2024-10-14 11:21:10.6713 Debug Connection id "0HN7C433KTJU1" accepted. 
+2024-10-14 11:21:10.6713 Debug Connection id "0HN7C433KTJU1" started. 
+2024-10-14 11:21:13.2732 Debug Connection id "0HN7C433KTJU2" accepted. 
+2024-10-14 11:21:13.2732 Debug Connection id "0HN7C433KTJU2" started. 
+2024-10-14 11:21:13.3220 Debug Connection id "0HN7C433KTJU2" received FIN. 
+2024-10-14 11:21:13.3220 Debug Connection id "0HN7C433KTJU3" accepted. 
+2024-10-14 11:21:13.3220 Debug Connection id "0HN7C433KTJU3" started. 
+2024-10-14 11:21:13.3339 Debug Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-14 11:21:13.3339 Debug Connection id "0HN7C433KTJU2" stopped. 
+2024-10-14 11:21:13.3339 Debug Connection 0HN7C433KTJU3 established using the following protocol: Tls12 
+2024-10-14 11:21:13.3339 Debug Connection id "0HN7C433KTJU2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:13.3776 Trace Connection id "0HN7C433KTJU3" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-14 11:21:13.3776 Trace Connection id "0HN7C433KTJU3" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-14 11:21:13.3807 Trace Connection id "0HN7C433KTJU3" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-14 11:21:13.3807 Trace Connection id "0HN7C433KTJU3" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-14 11:21:13.3807 Trace Connection id "0HN7C433KTJU3" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-14 11:21:13.3807 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 1 with length 460 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.4025 Trace Connection id "0HN7C433KTJU3" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-14 11:21:13.4226 Info Request starting HTTP/2 GET https://localhost:7281/swagger - - - 
+2024-10-14 11:21:13.5493 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-10-14 11:21:13.5493 Trace All hosts are allowed. 
+2024-10-14 11:21:13.5694 Debug No candidates found for the request path '/swagger' 
+2024-10-14 11:21:13.5694 Debug Request did not match any endpoints 
+2024-10-14 11:21:13.6026 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS. 
+2024-10-14 11:21:13.6026 Info Request finished HTTP/2 GET https://localhost:7281/swagger - 301 0 - 185.7828ms 
+2024-10-14 11:21:13.6026 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.6026 Info Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - - - 
+2024-10-14 11:21:13.6026 Trace All hosts are allowed. 
+2024-10-14 11:21:13.6026 Debug No candidates found for the request path '/swagger/index.html' 
+2024-10-14 11:21:13.6026 Debug Request did not match any endpoints 
+2024-10-14 11:21:13.6690 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-10-14 11:21:13.6690 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 3 with length 28 and flags END_HEADERS. 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 3 with length 919 and flags NONE. 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 3 with length 81 and flags NONE. 
+2024-10-14 11:21:13.6782 Debug Response markup was updated to include browser refresh script injection. 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.6782 Info Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 - text/html;charset=utf-8 79.2388ms 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 5 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.6782 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 7 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.6782 Info Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - - - 
+2024-10-14 11:21:13.6933 Info Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - - - 
+2024-10-14 11:21:13.6933 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 9 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.6933 Trace All hosts are allowed. 
+2024-10-14 11:21:13.6933 Trace All hosts are allowed. 
+2024-10-14 11:21:13.6933 Debug No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2024-10-14 11:21:13.6933 Debug No candidates found for the request path '/swagger/swagger-ui.css' 
+2024-10-14 11:21:13.6933 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 11 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.6933 Debug Request did not match any endpoints 
+2024-10-14 11:21:13.6933 Info Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - - - 
+2024-10-14 11:21:13.6933 Debug Request did not match any endpoints 
+2024-10-14 11:21:13.6933 Trace All hosts are allowed. 
+2024-10-14 11:21:13.6933 Debug No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2024-10-14 11:21:13.6933 Debug Request did not match any endpoints 
+2024-10-14 11:21:13.6933 Info Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-14 11:21:13.6933 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 11 with length 60 and flags END_HEADERS. 
+2024-10-14 11:21:13.6933 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 11 with length 13750 and flags NONE. 
+2024-10-14 11:21:13.6933 Trace Range header's value is empty. 
+2024-10-14 11:21:13.6933 Trace Range header's value is empty. 
+2024-10-14 11:21:13.6933 Trace Range header's value is empty. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.7104 Info Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript;+charset=utf-8 16.2283ms 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 7 with length 87 and flags END_HEADERS. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 5 with length 43 and flags END_HEADERS. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7104 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 4578 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 904 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7276 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Info Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-10-14 11:21:13.7411 Info Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-10-14 11:21:13.7411 Info Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 48.4518ms 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.7411 Info Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 200 152034 text/css 48.9244ms 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7411 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 15134 and flags NONE. 
+2024-10-14 11:21:13.7564 Info Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-10-14 11:21:13.7564 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.7564 Info Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 76.5240ms 
+2024-10-14 11:21:13.7973 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 13 with length 33 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:13.7973 Info Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - - - 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 13 with length 119 and flags END_HEADERS. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 9986 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8592 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8653 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8653 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8653 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-14 11:21:13.8653 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 160 and flags NONE. 
+2024-10-14 11:21:13.8653 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:13.8653 Info Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 69.5540ms 
+2024-10-14 11:21:14.0835 Trace Connection id "0HN7C433KTJU3" received HEADERS frame for stream ID 15 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:14.0841 Info Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - - - 
+2024-10-14 11:21:14.0841 Trace All hosts are allowed. 
+2024-10-14 11:21:14.0841 Debug No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-10-14 11:21:14.0841 Debug Request did not match any endpoints 
+2024-10-14 11:21:14.1920 Trace Connection id "0HN7C433KTJU3" sending HEADERS frame for stream ID 15 with length 65 and flags END_HEADERS. 
+2024-10-14 11:21:14.1920 Info Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 108.2571ms 
+2024-10-14 11:21:14.1920 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 15 with length 3930 and flags NONE. 
+2024-10-14 11:21:14.1920 Trace Connection id "0HN7C433KTJU3" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2024-10-14 11:21:14.7417 Debug Connection id "0HN7C433KTJU3" received FIN. 
+2024-10-14 11:21:14.7417 Debug The connection queue processing loop for 0HN7C433KTJU3 completed. 
+2024-10-14 11:21:14.7417 Debug Connection id "0HN7C433KTJU3" is closed. The last processed stream ID was 15. 
+2024-10-14 11:21:14.7417 Debug Connection id "0HN7C433KTJU3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:14.7417 Debug Connection id "0HN7C433KTJU3" stopped. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU4" accepted. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU4" started. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU4" received FIN. 
+2024-10-14 11:21:19.2016 Debug Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU5" accepted. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU5" started. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU4" stopped. 
+2024-10-14 11:21:19.2016 Debug Connection id "0HN7C433KTJU4" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:19.2102 Debug Connection 0HN7C433KTJU5 established using the following protocol: Tls12 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" received HEADERS frame for stream ID 1 with length 364 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-14 11:21:19.2102 Trace Connection id "0HN7C433KTJU5" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-14 11:21:19.2102 Info Request starting HTTP/2 GET https://localhost:7281/api/WorkType/test - - - 
+2024-10-14 11:21:19.2102 Trace All hosts are allowed. 
+2024-10-14 11:21:19.2102 Debug 1 candidate(s) found for the request path '/api/WorkType/test' 
+2024-10-14 11:21:19.2102 Debug Endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)' with route pattern 'api/WorkType/test' is valid for the request path '/api/WorkType/test' 
+2024-10-14 11:21:19.2102 Debug Request matched endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)' 
+2024-10-14 11:21:19.2102 Trace The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-14 11:21:19.2102 Debug Static files was skipped as the request already matched an endpoint. 
+2024-10-14 11:21:19.2276 Info Executing endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)' 
+2024-10-14 11:21:19.2429 Info Route matched with {action = "test", controller = "WorkType"}. Executing controller action with signature Void test() on controller VMS.API.Controllers.WorkTypeController (VMS.API). 
+2024-10-14 11:21:19.2429 Debug Execution plan of authorization filters (in the following order): None 
+2024-10-14 11:21:19.2429 Debug Execution plan of resource filters (in the following order): None 
+2024-10-14 11:21:19.2429 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-10-14 11:21:19.2429 Debug Execution plan of exception filters (in the following order): None 
+2024-10-14 11:21:19.2429 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-10-14 11:21:19.2429 Debug Executing controller factory for controller VMS.API.Controllers.WorkTypeController (VMS.API) 
+2024-10-14 11:21:19.3898 Debug Executed controller factory for controller VMS.API.Controllers.WorkTypeController (VMS.API) 
+2024-10-14 11:21:19.3898 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-14 11:21:19.3898 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-14 11:21:19.3898 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-10-14 11:21:19.3898 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-10-14 11:21:19.3898 Info Executing action method VMS.API.Controllers.WorkTypeController.test (VMS.API) - Validation state: Valid 
+2024-10-14 11:21:22.4072 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-10-14 11:21:22.4072 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-10-14 11:21:22.4072 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-14 11:21:22.4072 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-14 11:21:22.4072 Debug Authentication of the HTTPS connection timed out. 
+2024-10-14 11:21:22.4072 Debug Authentication of the HTTPS connection timed out. 
+2024-10-14 11:21:22.4072 Debug Connection id "0HN7C433KTJU1" stopped. 
+2024-10-14 11:21:22.4072 Debug Connection id "0HN7C433KTJU0" stopped. 
+2024-10-14 11:21:22.4072 Debug Connection id "0HN7C433KTJU1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:22.4072 Debug Connection id "0HN7C433KTJU0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:22.4145 Info Executed action VMS.API.Controllers.WorkTypeController.test (VMS.API) in 3165.1362ms 
+2024-10-14 11:21:22.4145 Info Executed endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)' 
+2024-10-14 11:21:23.7808 Info error : The input string 'dasda' was not in a correct format. 
+2024-10-14 11:21:23.7907 Trace Connection id "0HN7C433KTJU5" sending HEADERS frame for stream ID 1 with length 59 and flags END_HEADERS. 
+2024-10-14 11:21:23.7907 Trace Connection id "0HN7C433KTJU5" sending DATA frame for stream ID 1 with length 53 and flags END_STREAM. 
+2024-10-14 11:21:23.7907 Info Request finished HTTP/2 GET https://localhost:7281/api/WorkType/test - 500 - application/json 4579.8540ms 
+2024-10-14 11:21:29.6249 Debug Connection id "0HN7C433KTJU5" received FIN. 
+2024-10-14 11:21:29.6249 Debug Connection id "0HN7C433KTJU5" is closed. The last processed stream ID was 1. 
+2024-10-14 11:21:29.6249 Debug Connection id "0HN7C433KTJU5" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-14 11:21:29.6249 Debug The connection queue processing loop for 0HN7C433KTJU5 completed. 
+2024-10-14 11:21:29.6249 Debug Connection id "0HN7C433KTJU5" stopped. 

@@ -1,0 +1,31 @@
+﻿@page
+@model VMS.UI.Pages.CVModel
+@{
+}
+
+
+
+<div class="container mt-5">
+    <h2 class="text-center">Upload CV</h2>
+     @if (Model.UploadedFilePath == null)
+    {
+        <form method="post" enctype="multipart/form-data" class="mt-4">
+            <div class="form-group">
+            <input type="hidden" asp-for="ActionId" />
+
+            <label for="cvInput">Select CV (PDF or DOCX):</label>
+            <input type="file" id="cvInput" name="cvInput" accept=".pdf,.docx" required class="form-control" />
+            <span asp-validation-for="CvInput" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Save</button>
+    </form>
+    }
+
+    @if (Model.UploadedFilePath != null)
+    {
+        <div class="alert alert-success mt-4" role="alert">
+            Cv uğurla yükləndi.Sizə tez bir zamanda geri dönüş ediləcək 
+        </div>
+    }
+</div>

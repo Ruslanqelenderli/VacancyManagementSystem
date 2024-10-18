@@ -1,0 +1,886 @@
+2024-10-13 18:24:41.9003 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-13 18:24:41.9091 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign unknown property 'llayout'='${longdate} ${level} ${message} ${exception:format=toString}'
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString[T](T targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2024-10-13 18:24:41.9309 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-13 18:24:41.9309 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-13 18:24:41.9309 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-13 18:24:41.9474 Info Validating config: TargetNames=info, error, trace, ConfigItems=42, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-13 18:24:41.9474 Info Configuration initialized.
+2024-10-13 18:31:25.2375 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-13 18:31:25.2478 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign unknown property 'llayout'='${longdate} ${level} ${message} ${exception:format=toString}'
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString[T](T targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2024-10-13 18:31:25.2778 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-13 18:31:25.2778 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-13 18:31:25.2903 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-13 18:31:25.3060 Info Validating config: TargetNames=info, error, trace, ConfigItems=42, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\bin\Debug\net8.0\nlog.config
+2024-10-13 18:31:25.3242 Info Configuration initialized.
+2024-10-13 18:31:25.4780 Info Validating config: TargetNames=info, error, trace, ConfigItems=42, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\bin\Debug\net8.0\nlog.config
+2024-10-14 11:21:09.3815 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 11:21:09.3965 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign unknown property 'llayout'='${longdate} ${level} ${message} ${exception:format=toString}'
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString[T](T targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2024-10-14 11:21:09.4360 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 11:21:09.4360 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 11:21:09.4474 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 11:21:09.4602 Info Validating config: TargetNames=info, error, trace, ConfigItems=42, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\bin\Debug\net8.0\nlog.config
+2024-10-14 11:21:09.4602 Info Configuration initialized.
+2024-10-14 11:21:09.7036 Info Validating config: TargetNames=info, error, trace, ConfigItems=42, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\bin\Debug\net8.0\nlog.config
+2024-10-14 11:30:54.2921 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 11:30:54.3096 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 11:30:54.3096 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 11:30:54.3096 Info Registered target NLog.Targets.FileTarget(Name=wcf_messages)
+2024-10-14 11:30:54.3211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 11:30:54.3211 Info Validating config: TargetNames=info, ConfigItems=67, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 11:30:54.3367 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-10-14 11:30:54.3367 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: error
+2024-10-14 11:30:54.3367 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: wcf_messages
+2024-10-14 11:30:54.3533 Info Configuration initialized.
+2024-10-14 15:23:21.7048 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 15:23:21.7147 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 15:23:21.7147 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 15:23:21.7147 Info Registered target NLog.Targets.FileTarget(Name=wcf_messages)
+2024-10-14 15:23:21.7147 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 15:23:21.7318 Info Validating config: TargetNames=info, ConfigItems=67, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 15:23:21.7318 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-10-14 15:23:21.7318 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: error
+2024-10-14 15:23:21.7414 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: wcf_messages
+2024-10-14 15:23:21.7414 Info Configuration initialized.
+2024-10-14 15:25:40.7723 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 15:25:40.7839 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 15:25:40.7839 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 15:25:40.7839 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 15:25:40.8005 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 15:25:40.8113 Info Configuration initialized.
+2024-10-14 15:27:46.7793 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 15:27:46.7922 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 15:27:46.7922 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 15:27:46.7922 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 15:27:46.8097 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 15:27:46.8194 Info Configuration initialized.
+2024-10-14 15:29:44.4848 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 15:29:44.4956 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 15:29:44.4980 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 15:29:44.4980 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 15:29:44.4980 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 15:29:44.5252 Info Configuration initialized.
+2024-10-14 22:18:21.5496 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:18:21.5794 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:18:21.5876 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:18:21.6106 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:18:21.6428 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:18:21.6742 Info Configuration initialized.
+2024-10-14 22:22:25.7558 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:22:25.7819 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:22:25.7901 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:22:25.8088 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:22:25.8489 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:22:25.8771 Info Configuration initialized.
+2024-10-14 22:25:10.5080 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:25:10.5306 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:25:10.5448 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:25:10.5692 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:25:10.6071 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:25:10.6535 Info Configuration initialized.
+2024-10-14 22:29:23.4320 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:29:23.4669 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:29:23.4743 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:29:23.4973 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:29:23.5303 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:29:23.5746 Info Configuration initialized.
+2024-10-14 22:34:14.3525 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:34:14.3789 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:34:14.3789 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:34:14.4068 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:34:14.4348 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:34:14.4653 Info Configuration initialized.
+2024-10-14 22:38:31.2692 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:38:31.2909 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:38:31.2909 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:38:31.3134 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:38:31.3329 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:38:31.3517 Info Configuration initialized.
+2024-10-14 22:51:29.7228 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-14 22:51:29.7467 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-14 22:51:29.7554 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-14 22:51:29.7716 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-14 22:51:29.8028 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-14 22:51:29.8282 Info Configuration initialized.
+2024-10-16 14:53:53.2251 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 14:53:53.2251 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 14:53:53.2251 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 14:53:53.2251 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 14:53:53.2410 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 14:53:53.2410 Info Configuration initialized.
+2024-10-16 14:54:42.4526 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 14:54:42.4526 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 14:54:42.4526 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 14:54:42.4526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 14:54:42.4668 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 14:54:42.4668 Info Configuration initialized.
+2024-10-16 14:54:52.3724 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 14:54:52.3789 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 14:54:52.3789 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 14:54:52.3789 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 14:54:52.3892 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 14:54:52.3892 Info Configuration initialized.
+2024-10-16 14:55:19.5691 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 14:55:19.5691 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 14:55:19.5691 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 14:55:19.5787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 14:55:19.5787 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 14:55:19.5787 Info Configuration initialized.
+2024-10-16 14:55:28.9173 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 14:55:28.9262 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 14:55:28.9262 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 14:55:28.9262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 14:55:28.9417 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 14:55:28.9417 Info Configuration initialized.
+2024-10-16 15:02:07.8373 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:02:07.8542 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:02:07.8860 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:02:07.8946 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:02:07.8946 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:02:07.9210 Info Configuration initialized.
+2024-10-16 15:13:37.9208 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:13:37.9208 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:13:37.9208 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:13:37.9208 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:13:37.9208 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:13:37.9417 Info Configuration initialized.
+2024-10-16 15:14:10.5770 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:14:10.5770 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:14:10.5770 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:14:10.5770 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:14:10.5770 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:14:10.5979 Info Configuration initialized.
+2024-10-16 15:16:23.4722 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:16:23.4722 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:16:23.4722 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:16:23.4722 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:16:23.4877 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:16:23.4877 Info Configuration initialized.
+2024-10-16 15:21:24.7216 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:21:24.7216 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:21:24.7216 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:21:24.7216 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:21:24.7368 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:21:24.7368 Info Configuration initialized.
+2024-10-16 15:21:51.1864 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:21:51.1864 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:21:51.1864 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:21:51.1864 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:21:51.1864 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:21:51.2071 Info Configuration initialized.
+2024-10-16 15:22:09.6190 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:22:09.6248 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:22:09.6248 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:22:09.6248 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:22:09.6248 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:22:09.6404 Info Configuration initialized.
+2024-10-16 15:22:33.7553 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 15:22:33.7683 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 15:22:33.7683 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 15:22:33.7683 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 15:22:33.7919 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 15:22:33.8074 Info Configuration initialized.
+2024-10-16 16:07:37.6439 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 16:07:37.6525 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 16:07:37.6525 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 16:07:37.6525 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 16:07:37.6694 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 16:07:37.6791 Info Configuration initialized.
+2024-10-16 16:11:15.7703 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 16:11:15.7831 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 16:11:15.7831 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 16:11:15.7983 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 16:11:15.8089 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 16:11:15.8212 Info Configuration initialized.
+2024-10-16 16:50:14.8895 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 16:50:14.9025 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 16:50:14.9122 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 16:50:14.9234 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 16:50:14.9437 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 16:50:14.9689 Info Configuration initialized.
+2024-10-16 16:52:57.6295 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 16:52:57.6469 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 16:52:57.6469 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 16:52:57.6667 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 16:52:57.6848 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 16:52:57.6996 Info Configuration initialized.
+2024-10-16 16:55:06.8392 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 16:55:06.8531 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 16:55:06.8531 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 16:55:06.8665 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 16:55:06.8767 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 16:55:06.8919 Info Configuration initialized.
+2024-10-16 17:02:06.5607 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:02:06.5702 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:02:06.5702 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:02:06.5822 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:02:06.5937 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:02:06.5937 Info Configuration initialized.
+2024-10-16 17:04:14.7165 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:04:14.7319 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:04:14.7364 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:04:14.7536 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:04:14.7788 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:04:14.8095 Info Configuration initialized.
+2024-10-16 17:06:24.5841 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:06:24.5931 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:06:24.5931 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:06:24.5931 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:06:24.6155 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:06:24.6262 Info Configuration initialized.
+2024-10-16 17:15:28.3012 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:15:28.3149 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:15:28.3149 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:15:28.3149 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:15:28.3475 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:15:28.3747 Info Configuration initialized.
+2024-10-16 17:19:13.6256 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:19:13.6383 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:19:13.6383 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:19:13.6383 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:19:13.6614 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:19:13.6734 Info Configuration initialized.
+2024-10-16 17:20:55.3983 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:20:55.4089 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:20:55.4089 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:20:55.4089 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:20:55.4317 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:20:55.4426 Info Configuration initialized.
+2024-10-16 17:22:04.2784 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:22:04.2873 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:22:04.2903 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:22:04.2903 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:22:04.2903 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:22:04.3141 Info Configuration initialized.
+2024-10-16 17:24:42.2679 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 17:24:42.2816 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 17:24:42.2856 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 17:24:42.2856 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 17:24:42.3034 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 17:24:42.3210 Info Configuration initialized.
+2024-10-16 22:24:15.9444 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:24:15.9707 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:24:15.9707 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:24:15.9985 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:24:16.0249 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:24:16.0635 Info Configuration initialized.
+2024-10-16 22:26:55.8202 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:26:55.8550 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:26:55.8661 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:26:55.8936 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:26:55.9458 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:26:56.0042 Info Configuration initialized.
+2024-10-16 22:39:53.8378 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:39:53.8837 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:39:53.8967 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:39:53.9365 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:39:54.0033 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:39:54.0568 Info Configuration initialized.
+2024-10-16 22:40:26.6959 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:40:26.7310 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:40:26.7410 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:40:26.7673 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:40:26.8053 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:40:26.8602 Info Configuration initialized.
+2024-10-16 22:46:18.7673 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:46:18.8090 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:46:18.8214 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:46:18.8547 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:46:18.9160 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:46:18.9627 Info Configuration initialized.
+2024-10-16 22:50:33.5944 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:50:33.6314 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:50:33.6314 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:50:33.6634 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:50:33.6945 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:50:33.7318 Info Configuration initialized.
+2024-10-16 22:53:10.9967 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:53:11.0232 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:53:11.0232 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:53:11.0527 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:53:11.0806 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:53:11.1122 Info Configuration initialized.
+2024-10-16 22:55:07.5996 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 22:55:07.6342 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 22:55:07.6342 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 22:55:07.6611 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 22:55:07.6867 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 22:55:07.7170 Info Configuration initialized.
+2024-10-16 23:03:10.4409 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:03:10.4772 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:03:10.4772 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:03:10.5136 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:03:10.5454 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:03:10.5843 Info Configuration initialized.
+2024-10-16 23:06:17.3790 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:06:17.4044 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:06:17.4138 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:06:17.4314 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:06:17.4314 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:06:17.4860 Info Configuration initialized.
+2024-10-16 23:07:19.4538 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:07:19.4865 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:07:19.4960 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:07:19.5145 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:07:19.5445 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:07:19.5746 Info Configuration initialized.
+2024-10-16 23:08:20.2945 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:08:20.3246 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:08:20.3338 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:08:20.3510 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:08:20.3841 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:08:20.4108 Info Configuration initialized.
+2024-10-16 23:11:21.6433 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:11:21.7667 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:11:21.7867 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:11:21.8278 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:11:21.9048 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:11:21.9679 Info Configuration initialized.
+2024-10-16 23:15:28.0617 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:15:28.0890 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:15:28.0890 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:15:28.1172 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:15:28.1172 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:15:28.1777 Info Configuration initialized.
+2024-10-16 23:28:42.1545 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:28:42.1788 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:28:42.1884 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:28:42.2063 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:28:42.2352 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:28:42.2675 Info Configuration initialized.
+2024-10-16 23:32:46.7734 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:32:46.7959 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:32:46.7959 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:32:46.8236 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:32:46.8641 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:32:46.8923 Info Configuration initialized.
+2024-10-16 23:36:57.4864 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:36:57.5147 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:36:57.5147 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:36:57.5435 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:36:57.5682 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:36:57.6025 Info Configuration initialized.
+2024-10-16 23:37:53.0490 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:37:53.0878 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:37:53.0991 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:37:53.1258 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:37:53.1573 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:37:53.1969 Info Configuration initialized.
+2024-10-16 23:45:26.2189 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:45:26.2281 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:45:26.2281 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:45:26.2281 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:45:26.2281 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:45:26.2568 Info Configuration initialized.
+2024-10-16 23:47:28.9157 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:47:28.9157 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:47:28.9157 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:47:28.9360 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:47:28.9453 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:47:28.9453 Info Configuration initialized.
+2024-10-16 23:47:39.1232 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:47:39.1558 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:47:39.1656 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:47:39.1897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:47:39.2166 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:47:39.2555 Info Configuration initialized.
+2024-10-16 23:48:05.6906 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-16 23:48:05.7111 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-16 23:48:05.7111 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-16 23:48:05.7373 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-16 23:48:05.7656 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-16 23:48:05.7966 Info Configuration initialized.
+2024-10-17 00:30:08.9474 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:30:08.9861 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:30:08.9968 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:30:09.0219 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:30:09.0556 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:30:09.0972 Info Configuration initialized.
+2024-10-17 00:31:33.1887 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:31:33.2242 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:31:33.2242 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:31:33.2573 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:31:33.2871 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:31:33.3246 Info Configuration initialized.
+2024-10-17 00:34:53.0875 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:34:53.1126 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:34:53.1220 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:34:53.1437 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:34:53.1706 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:34:53.2049 Info Configuration initialized.
+2024-10-17 00:44:26.2196 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:44:26.2316 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:44:26.2316 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:44:26.2418 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:44:26.2505 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:44:26.2505 Info Configuration initialized.
+2024-10-17 00:54:06.8864 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:54:06.8982 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:54:06.8982 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:54:06.8982 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:54:06.9200 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:54:06.9200 Info Configuration initialized.
+2024-10-17 00:57:17.7039 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:57:17.7039 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:57:17.7232 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:57:17.7378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:57:17.7696 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:57:17.7903 Info Configuration initialized.
+2024-10-17 00:59:43.0476 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 00:59:43.0633 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 00:59:43.0678 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 00:59:43.0787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 00:59:43.0938 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 00:59:43.1111 Info Configuration initialized.
+2024-10-17 01:01:05.0600 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 01:01:05.1073 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 01:01:05.1246 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 01:01:05.1489 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 01:01:05.1680 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 01:01:05.1911 Info Configuration initialized.
+2024-10-17 01:01:51.7181 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 01:01:51.7373 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 01:01:51.7468 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 01:01:51.7696 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 01:01:51.7866 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 01:01:51.8052 Info Configuration initialized.
+2024-10-17 01:06:22.4653 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 01:06:22.4798 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 01:06:22.4798 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 01:06:22.4798 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 01:06:22.5043 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 01:06:22.5221 Info Configuration initialized.
+2024-10-17 01:10:48.0179 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 01:10:48.0329 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 01:10:48.0329 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 01:10:48.0678 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 01:10:48.0919 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 01:10:48.1211 Info Configuration initialized.
+2024-10-17 01:12:58.1873 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 01:12:58.2027 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 01:12:58.2027 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 01:12:58.2166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 01:12:58.2291 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 01:12:58.2423 Info Configuration initialized.
+2024-10-17 21:46:54.6716 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:46:54.7146 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:46:54.7263 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:46:54.7492 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:46:54.7783 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:46:54.8157 Info Configuration initialized.
+2024-10-17 21:47:48.1792 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:47:48.2084 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:47:48.2201 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:47:48.2407 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:47:48.2669 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:47:48.3068 Info Configuration initialized.
+2024-10-17 21:49:51.9899 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:49:52.0151 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:49:52.0247 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:49:52.0433 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:49:52.0716 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:49:52.1102 Info Configuration initialized.
+2024-10-17 21:51:42.2866 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:51:42.3140 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:51:42.3259 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:51:42.3606 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:51:42.4261 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:51:42.4986 Info Configuration initialized.
+2024-10-17 21:52:38.2929 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:52:38.3221 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:52:38.3360 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:52:38.3595 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:52:38.3906 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:52:38.4240 Info Configuration initialized.
+2024-10-17 21:55:02.8360 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:55:02.8778 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:55:02.9037 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:55:02.9295 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:55:02.9633 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:55:03.0720 Info Configuration initialized.
+2024-10-17 21:56:20.5527 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:56:20.5802 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:56:20.5802 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:56:20.6102 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:56:20.6390 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:56:20.6745 Info Configuration initialized.
+2024-10-17 21:58:34.3447 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:58:34.3712 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:58:34.3712 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:58:34.3988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:58:34.4316 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:58:34.4741 Info Configuration initialized.
+2024-10-17 21:59:45.9309 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 21:59:45.9737 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 21:59:45.9850 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 21:59:46.0181 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 21:59:46.0586 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 21:59:46.1063 Info Configuration initialized.
+2024-10-17 22:11:47.5718 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:11:47.6082 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:11:47.6178 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:11:47.6404 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:11:47.6736 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:11:47.7132 Info Configuration initialized.
+2024-10-17 22:15:54.5442 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:15:54.5806 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:15:54.5975 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:15:54.6220 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:15:54.6514 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:15:54.6882 Info Configuration initialized.
+2024-10-17 22:17:52.2988 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:17:52.3262 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:17:52.3262 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:17:52.3539 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:17:52.3804 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:17:52.4187 Info Configuration initialized.
+2024-10-17 22:23:51.9146 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:23:51.9390 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:23:51.9481 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:23:51.9665 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:23:51.9906 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:23:52.0225 Info Configuration initialized.
+2024-10-17 22:31:23.1563 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:31:23.1934 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:31:23.2033 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:31:23.2306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:31:23.2704 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:31:23.3152 Info Configuration initialized.
+2024-10-17 22:56:55.7492 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:56:55.8451 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:56:55.8653 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:56:55.9091 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:56:55.9533 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:56:56.0119 Info Configuration initialized.
+2024-10-17 22:59:22.3038 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 22:59:22.3303 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 22:59:22.3398 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 22:59:22.3593 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 22:59:22.3862 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 22:59:22.4182 Info Configuration initialized.
+2024-10-17 23:35:45.5376 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:35:45.5664 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:35:45.5753 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:35:45.6059 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:35:45.6585 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:35:45.7059 Info Configuration initialized.
+2024-10-17 23:42:08.3082 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:42:08.3426 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:42:08.3518 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:42:08.3735 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:42:08.4009 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:42:08.4239 Info Configuration initialized.
+2024-10-17 23:44:04.2297 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:44:04.2432 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:44:04.2432 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:44:04.2569 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:44:04.2569 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:44:04.2808 Info Configuration initialized.
+2024-10-17 23:46:39.4275 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:46:39.4424 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:46:39.4467 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:46:39.4467 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:46:39.4658 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:46:39.4845 Info Configuration initialized.
+2024-10-17 23:47:22.6248 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:47:22.6396 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:47:22.6396 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:47:22.6543 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:47:22.6543 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:47:22.6781 Info Configuration initialized.
+2024-10-17 23:48:29.9087 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:48:29.9207 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:48:29.9244 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:48:29.9244 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:48:29.9429 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:48:29.9543 Info Configuration initialized.
+2024-10-17 23:51:39.5561 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:51:39.5705 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:51:39.5705 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:51:39.5827 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:51:39.5827 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:51:39.6104 Info Configuration initialized.
+2024-10-17 23:51:49.8802 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:51:49.8999 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:51:49.8999 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:51:49.9186 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:51:49.9374 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:51:49.9569 Info Configuration initialized.
+2024-10-17 23:53:13.9659 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:53:13.9781 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:53:13.9781 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:53:13.9781 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:53:14.0011 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:53:14.0159 Info Configuration initialized.
+2024-10-17 23:55:08.8799 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:55:08.8975 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:55:08.8975 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:55:08.8975 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:55:08.9181 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:55:08.9301 Info Configuration initialized.
+2024-10-17 23:56:23.3088 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:56:23.3229 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:56:23.3229 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:56:23.3350 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:56:23.3467 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:56:23.3626 Info Configuration initialized.
+2024-10-17 23:59:30.9333 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-17 23:59:30.9482 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-17 23:59:30.9482 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-17 23:59:30.9613 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-17 23:59:30.9613 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-17 23:59:30.9912 Info Configuration initialized.
+2024-10-18 00:00:51.3226 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 00:00:51.3334 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 00:00:51.3366 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 00:00:51.3366 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 00:00:51.3572 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 00:00:51.3734 Info Configuration initialized.
+2024-10-18 00:02:26.1558 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 00:02:26.1678 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 00:02:26.1678 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 00:02:26.1800 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 00:02:26.1800 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 00:02:26.2059 Info Configuration initialized.
+2024-10-18 01:36:39.2521 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:36:39.2654 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:36:39.2654 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:36:39.2785 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:36:39.2785 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:36:39.3200 Info Configuration initialized.
+2024-10-18 01:37:17.7976 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:37:17.8136 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:37:17.8136 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:37:17.8268 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:37:17.8406 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:37:17.8568 Info Configuration initialized.
+2024-10-18 01:39:23.7427 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:39:23.7643 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:39:23.7643 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:39:23.7867 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:39:23.8107 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:39:23.8363 Info Configuration initialized.
+2024-10-18 01:44:59.1337 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:44:59.1501 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:44:59.1501 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:44:59.1675 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:44:59.1833 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:44:59.2051 Info Configuration initialized.
+2024-10-18 01:46:11.7365 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:46:11.7499 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:46:11.7499 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:46:11.7637 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:46:11.7836 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:46:11.8102 Info Configuration initialized.
+2024-10-18 01:47:45.8729 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:47:45.8911 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:47:45.8911 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:47:45.9069 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:47:45.9220 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:47:45.9402 Info Configuration initialized.
+2024-10-18 01:48:20.5145 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:48:20.5309 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:48:20.5309 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:48:20.5452 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:48:20.5563 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:48:20.5815 Info Configuration initialized.
+2024-10-18 01:51:16.8806 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:51:16.8923 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:51:16.8923 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:51:16.9062 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:51:16.9179 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:51:16.9179 Info Configuration initialized.
+2024-10-18 01:55:33.5353 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:55:33.5474 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:55:33.5474 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:55:33.5474 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:55:33.5716 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:55:33.5851 Info Configuration initialized.
+2024-10-18 01:59:11.9831 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 01:59:12.0137 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 01:59:12.0137 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 01:59:12.0304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 01:59:12.0430 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 01:59:12.0583 Info Configuration initialized.
+2024-10-18 02:00:42.3724 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 02:00:42.3890 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 02:00:42.3890 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 02:00:42.4033 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 02:00:42.4188 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 02:00:42.4364 Info Configuration initialized.
+2024-10-18 02:18:14.8117 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 02:18:14.8273 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 02:18:14.8273 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 02:18:14.8419 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 02:18:14.8557 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 02:18:14.8712 Info Configuration initialized.
+2024-10-18 02:21:17.6482 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 02:21:17.6618 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 02:21:17.6618 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 02:21:17.6618 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 02:21:17.6858 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 02:21:17.6978 Info Configuration initialized.
+2024-10-18 02:21:54.2567 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 02:21:54.2748 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 02:21:54.2748 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 02:21:54.2946 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 02:21:54.3145 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 02:21:54.3342 Info Configuration initialized.
+2024-10-18 11:07:37.2226 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:07:37.2585 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:07:37.2673 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:07:37.2876 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:07:37.3187 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:07:37.3666 Info Configuration initialized.
+2024-10-18 11:09:54.7104 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:09:54.7664 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:09:54.7664 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:09:54.8052 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:09:54.8315 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:09:54.8655 Info Configuration initialized.
+2024-10-18 11:31:43.2118 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:31:43.2536 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:31:43.2679 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:31:43.2967 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:31:43.3365 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:31:43.3924 Info Configuration initialized.
+2024-10-18 11:34:08.3427 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:34:08.3746 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:34:08.3848 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:34:08.4064 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:34:08.4361 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:34:08.4710 Info Configuration initialized.
+2024-10-18 11:34:37.0965 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:34:37.1773 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:34:37.1918 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:34:37.2280 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:34:37.2733 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:34:37.3173 Info Configuration initialized.
+2024-10-18 11:38:20.4487 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:38:20.5062 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:38:20.5062 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:38:20.5386 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:38:20.5720 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:38:20.6110 Info Configuration initialized.
+2024-10-18 11:41:34.2847 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:41:34.3432 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:41:34.3557 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:41:34.3841 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:41:34.4240 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:41:34.4964 Info Configuration initialized.
+2024-10-18 11:52:41.0380 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:52:41.0676 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:52:41.0773 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:52:41.1006 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:52:41.1308 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:52:41.1674 Info Configuration initialized.
+2024-10-18 11:58:18.6822 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 11:58:18.7385 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 11:58:18.7479 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 11:58:18.7706 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 11:58:18.8189 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 11:58:18.8617 Info Configuration initialized.
+2024-10-18 12:17:00.7479 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 12:17:00.7865 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 12:17:00.7990 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 12:17:00.8386 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 12:17:00.8771 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 12:17:00.9145 Info Configuration initialized.
+2024-10-18 15:35:24.5416 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:35:24.5518 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:35:24.5518 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:35:24.5518 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:35:24.5617 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:35:24.5617 Info Configuration initialized.
+2024-10-18 15:35:29.8557 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:35:29.8557 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:35:29.8557 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:35:29.8557 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:35:29.8725 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:35:29.8725 Info Configuration initialized.
+2024-10-18 15:35:53.4298 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:35:53.4361 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:35:53.4361 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:35:53.4361 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:35:53.4361 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:35:53.4533 Info Configuration initialized.
+2024-10-18 15:37:42.6698 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:37:42.6698 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:37:42.6698 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:37:42.6810 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:37:42.6810 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:37:42.6810 Info Configuration initialized.
+2024-10-18 15:37:58.7598 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:37:58.7713 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:37:58.7745 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:37:58.7745 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:37:58.7745 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:37:58.8037 Info Configuration initialized.
+2024-10-18 15:53:18.6402 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:53:18.6503 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:53:18.6533 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:53:18.6533 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:53:18.6666 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:53:18.6666 Info Configuration initialized.
+2024-10-18 15:54:42.4916 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:54:42.5066 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:54:42.5102 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:54:42.5102 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:54:42.5385 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:54:42.5540 Info Configuration initialized.
+2024-10-18 15:55:34.3629 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:55:34.3808 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:55:34.3856 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:55:34.3856 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:55:34.4133 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:55:34.4318 Info Configuration initialized.
+2024-10-18 15:57:26.3016 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:57:26.3139 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:57:26.3187 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:57:26.3187 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:57:26.3438 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:57:26.3610 Info Configuration initialized.
+2024-10-18 15:58:55.5096 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 15:58:55.5780 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 15:58:55.5841 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 15:58:55.5984 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:58:55.6167 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 15:58:55.6369 Info Configuration initialized.
+2024-10-18 16:00:19.6553 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 16:00:19.6695 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 16:00:19.6695 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 16:00:19.6818 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 16:00:19.6988 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 16:00:19.7179 Info Configuration initialized.
+2024-10-18 17:00:57.8222 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 17:00:57.8347 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 17:00:57.8347 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 17:00:57.8473 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 17:00:57.8473 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 17:00:57.8764 Info Configuration initialized.
+2024-10-18 17:05:59.9636 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 17:05:59.9872 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 17:05:59.9872 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 17:06:00.0079 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 17:06:00.0277 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 17:06:00.0471 Info Configuration initialized.
+2024-10-18 17:09:12.5076 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 17:09:12.5247 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 17:09:12.5247 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 17:09:12.5423 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 17:09:12.5649 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 17:09:12.5881 Info Configuration initialized.
+2024-10-18 17:10:49.9907 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 17:10:50.0012 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 17:10:50.0012 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 17:10:50.0012 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 17:10:50.0264 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 17:10:50.0437 Info Configuration initialized.
+2024-10-18 17:17:47.3524 Info Registered target NLog.Targets.FileTarget(Name=trace)
+2024-10-18 17:17:47.3632 Info Registered target NLog.Targets.FileTarget(Name=info)
+2024-10-18 17:17:47.3632 Info Registered target NLog.Targets.FileTarget(Name=error)
+2024-10-18 17:17:47.3632 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 17:17:47.3825 Info Validating config: TargetNames=info, trace, error, ConfigItems=52, FilePath=D:\VMS\VacancyManagementSystem\VMS.API\NLog.config
+2024-10-18 17:17:47.3956 Info Configuration initialized.

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VMS.ENTITY/1.0.0": {
+        "runtime": {
+          "VMS.ENTITY.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VMS.ENTITY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\VMS\VacancyManagementSystem\VMS.UI\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-10-18T17:45:01.9160419Z;True|2024-10-18T21:44:09.6984434+04:00;True|2024-10-18T21:42:51.5827902+04:00;True|2024-10-18T21:42:26.9041254+04:00;True|2024-10-18T21:23:17.0196872+04:00;True|2024-10-18T17:35:33.9551381+04:00;True|2024-10-18T17:35:24.8955126+04:00;True|2024-10-18T17:35:13.5646063+04:00;True|2024-10-18T17:28:21.4170474+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

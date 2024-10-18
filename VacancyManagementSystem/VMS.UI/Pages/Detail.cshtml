@@ -1,0 +1,78 @@
+﻿@page
+@model VMS.UI.Pages.DetailModel
+@{
+}
+
+<div class="container mt-5">
+    <div class="mb-3">
+        <div class="row">
+            <div class="col">
+                <label asp-for="@Model.Action.FullName">Ad Soyad</label>
+                <input type="text" id="input2" class="form-control" asp-for="@Model.Action.FullName" disabled>
+            </div>
+            <div class="col">
+                <label asp-for="@Model.Action.Email">Email</label>
+                <input type="text" id="input2" class="form-control" asp-for="@Model.Action.Email" disabled>
+            </div>
+             <div class="col">
+                <label asp-for="@Model.Action.PhoneNumber">Telefon nömrəsi</label>
+                <input type="text" id="input3" class="form-control" asp-for="@Model.Action.PhoneNumber" disabled>
+            </div>
+             <div class="col">
+                <label asp-for="@Model.Action.Point">Bal</label>
+                <input type="text" id="input4" class="form-control" asp-for="@Model.Action.Point" disabled>
+            </div>
+             <div class="col">
+                <label asp-for="@Model.Action.Percent">Faiz</label>
+                <input type="text" id="input5" class="form-control" asp-for="@Model.Action.Percent" disabled>
+            </div>
+             <div class="col">
+                <label asp-for="@Model.Action.WorkTypeName">İş növü</label>
+                <input type="text" id="input6" class="form-control" asp-for="@Model.Action.WorkTypeName" disabled>
+            </div>
+        </div>
+           
+    </div>
+    <h2>Cavablar</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sual</th>
+                <th>Düzgün cavab</th>
+                <th>Cavab</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var question in Model.Action.Questions)
+            {
+                string color = question.SelectedAnswer == question.CorrectAnswer ? "green" : "red";
+                <tr style="color: @color">
+                    <td>@question.QuestionDescription</td>
+                    <td>@question.CorrectAnswer</td>
+                    <td>@question.SelectedAnswer</td>
+                </tr>
+            }
+        </tbody>
+
+        
+    </table>
+    </div>
+
+@section Scripts {
+<script>
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+
+        const filePath =  @Html.Raw(Json.Serialize(Model.Action.CVPath)) || "";
+        if (filePath == "") {
+            return;
+        }
+
+        const link = document.createElement('a');
+        link.href = filePath;
+        link.download = ''; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+</script>
+}

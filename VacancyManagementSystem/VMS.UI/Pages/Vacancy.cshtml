@@ -1,0 +1,66 @@
+﻿@page
+@model VMS.UI.Pages.VacancyModel
+@{
+    <div class="container mt-5">
+        <h2>Vakansiyalar</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Başlıq</th>
+                    <th>Təsvir</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var vacancy in Model.Vacancies)
+                {
+                    <tr>
+                        <td>@vacancy.Title</td>
+                        <td>@vacancy.Description</td>
+                        <td>
+                            <a asp-page="/Apply" asp-route-vacancyId="@vacancy.Id" class="btn btn-primary">Müraciət et</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div>
+            @if (Model.TotalPage > 1)
+            {
+                int startPage = Math.Max(1, Model.CurrentPage - 2);
+                int endPage = Math.Min(Model.TotalPage, Model.CurrentPage + 2);
+
+                if (startPage > 1)
+                {
+                    <a asp-page="/Vacancy" asp-route-pageNumber="1">1</a>
+                    if (startPage > 2)
+                    {
+                        <span>...</span>
+                    }
+                }
+
+                for (int i = startPage; i <= endPage; i++)
+                {
+                    if (i == Model.CurrentPage)
+                    {
+                        <strong>@i</strong>
+                    }
+                    else
+                    {
+                        <a asp-page="/Vacancy" asp-route-pageNumber="@i">@i</a>
+                    }
+                }
+
+                if (endPage < Model.TotalPage)
+                {
+                    if (endPage < Model.TotalPage - 1)
+                    {
+                        <span>...</span>
+                    }
+                    <a asp-page="/Vacancy" asp-route-pageNumber="@Model.TotalPage">@Model.TotalPage</a>
+                }
+            }
+        </div>
+    </div>
+}

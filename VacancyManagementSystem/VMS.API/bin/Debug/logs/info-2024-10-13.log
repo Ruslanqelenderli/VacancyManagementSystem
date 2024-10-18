@@ -1,0 +1,81 @@
+2024-10-13 18:24:42.3072|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-13 18:24:42.3485|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7281
+2024-10-13 18:24:42.3485|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5149
+2024-10-13 18:24:42.3485|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-10-13 18:24:42.3485|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-10-13 18:24:42.3485|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\VMS\VacancyManagementSystem\VMS.API
+2024-10-13 18:24:50.1355|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger - - -
+2024-10-13 18:24:50.3119|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger - 301 0 - 184.9561ms
+2024-10-13 18:24:50.3189|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - - -
+2024-10-13 18:24:50.4143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 - text/html;charset=utf-8 102.7738ms
+2024-10-13 18:24:50.4143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - - -
+2024-10-13 18:24:50.4143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - - -
+2024-10-13 18:24:50.4143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - - -
+2024-10-13 18:24:50.4309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - - -
+2024-10-13 18:24:50.4445|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript;+charset=utf-8 12.2751ms
+2024-10-13 18:24:50.4600|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-13 18:24:50.4600|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-13 18:24:50.4600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 200 152034 text/css 46.0549ms
+2024-10-13 18:24:50.4600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 45.1315ms
+2024-10-13 18:24:50.4751|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-13 18:24:50.4751|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 54.9559ms
+2024-10-13 18:24:50.5295|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - - -
+2024-10-13 18:24:50.9594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 431.9961ms
+2024-10-13 18:24:51.0081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - - -
+2024-10-13 18:24:51.1571|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 148.3883ms
+2024-10-13 18:24:56.0255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/api/WorkType/test - - -
+2024-10-13 18:24:56.0386|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:24:56.0386|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "test", controller = "WorkType"}. Executing controller action with signature Void test() on controller VMS.API.Controllers.WorkTypeController (VMS.API).
+2024-10-13 18:24:56.1655|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method VMS.API.Controllers.WorkTypeController.test (VMS.API) - Validation state: Valid
+2024-10-13 18:24:59.7522|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VMS.API.Controllers.WorkTypeController.test (VMS.API) in 3704.2034ms
+2024-10-13 18:24:59.7588|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:25:02.6452|ERROR|VMS.API.Helper.Middlewares.ExceptionMiddleware|error : The input string 'dasda' was not in a correct format.
+2024-10-13 18:25:02.6535|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/api/WorkType/test - 500 - application/json 6628.4946ms
+2024-10-13 18:25:49.3034|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/api/WorkType/test - - -
+2024-10-13 18:25:49.3034|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:25:49.3034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "test", controller = "WorkType"}. Executing controller action with signature Void test() on controller VMS.API.Controllers.WorkTypeController (VMS.API).
+2024-10-13 18:25:49.3034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method VMS.API.Controllers.WorkTypeController.test (VMS.API) - Validation state: Valid
+2024-10-13 18:25:51.0956|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VMS.API.Controllers.WorkTypeController.test (VMS.API) in 1787.2365ms
+2024-10-13 18:25:51.0956|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:25:51.9803|ERROR|VMS.API.Helper.Middlewares.ExceptionMiddleware|error : The input string 'dasda' was not in a correct format.
+2024-10-13 18:25:51.9803|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/api/WorkType/test - 500 - application/json 2676.8143ms
+2024-10-13 18:26:37.1340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/api/WorkType/test - - -
+2024-10-13 18:26:37.1340|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:26:37.1340|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "test", controller = "WorkType"}. Executing controller action with signature Void test() on controller VMS.API.Controllers.WorkTypeController (VMS.API).
+2024-10-13 18:26:37.1340|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method VMS.API.Controllers.WorkTypeController.test (VMS.API) - Validation state: Valid
+2024-10-13 18:26:38.8107|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VMS.API.Controllers.WorkTypeController.test (VMS.API) in 1668.7488ms
+2024-10-13 18:26:38.8107|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:27:20.1697|ERROR|VMS.API.Helper.Middlewares.ExceptionMiddleware|error : The input string 'dasda' was not in a correct format.
+2024-10-13 18:31:25.7966|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-13 18:31:25.8367|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7281
+2024-10-13 18:31:25.8367|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5149
+2024-10-13 18:31:25.8367|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-10-13 18:31:25.8367|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-10-13 18:31:25.8367|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\VMS\VacancyManagementSystem\VMS.API
+2024-10-13 18:31:31.7892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger - - -
+2024-10-13 18:31:31.8859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger - 301 0 - 100.4200ms
+2024-10-13 18:31:31.8859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - - -
+2024-10-13 18:31:31.9453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 - text/html;charset=utf-8 55.8729ms
+2024-10-13 18:31:31.9453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - - -
+2024-10-13 18:31:31.9453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - - -
+2024-10-13 18:31:31.9453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - - -
+2024-10-13 18:31:31.9945|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-13 18:31:31.9945|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-13 18:31:31.9945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 51.7691ms
+2024-10-13 18:31:31.9945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 200 152034 text/css 51.9736ms
+2024-10-13 18:31:32.0061|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-13 18:31:32.0061|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 58.2147ms
+2024-10-13 18:31:32.0328|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - - -
+2024-10-13 18:31:32.0328|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - - -
+2024-10-13 18:31:32.0393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript;+charset=utf-8 6.3163ms
+2024-10-13 18:31:32.0580|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 31.9822ms
+2024-10-13 18:31:32.2675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - - -
+2024-10-13 18:31:32.3567|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 88.8918ms
+2024-10-13 18:31:38.4024|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7281/api/WorkType/test - - -
+2024-10-13 18:31:38.4135|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:31:38.4135|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "test", controller = "WorkType"}. Executing controller action with signature Void test() on controller VMS.API.Controllers.WorkTypeController (VMS.API).
+2024-10-13 18:31:38.5257|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method VMS.API.Controllers.WorkTypeController.test (VMS.API) - Validation state: Valid
+2024-10-13 18:31:40.9609|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VMS.API.Controllers.WorkTypeController.test (VMS.API) in 2533.3157ms
+2024-10-13 18:31:40.9609|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VMS.API.Controllers.WorkTypeController.test (VMS.API)'
+2024-10-13 18:31:41.7968|ERROR|VMS.API.Helper.Middlewares.ExceptionMiddleware|error : The input string 'dasda' was not in a correct format.
+2024-10-13 18:31:41.8042|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7281/api/WorkType/test - 500 - application/json 3402.0190ms

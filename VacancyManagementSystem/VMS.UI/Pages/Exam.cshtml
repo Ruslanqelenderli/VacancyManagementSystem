@@ -1,0 +1,128 @@
+﻿@page
+@model VMS.UI.Pages.ExamModel
+@{
+
+}
+
+
+@foreach (var question in Model.Questions)
+{
+    <div id="@question.Id" class="question">
+        <h3>@question.Description</h3>
+
+        @foreach (var answer in question.Answers)
+        {
+            <div>
+                <input type="radio" id="@answer.Id" name="question_@question.Id" value="@answer.Id" required />
+                <label>@answer.Description</label>
+            </div>
+        }
+        <button id="confirmButton" class="btn btn-primary" onclick="confirm()">Confirm</button>
+    </div>
+
+}
+
+
+
+<div id="countdown"></div>
+@section Scripts {
+    <script>
+        
+        const initialTime = @Model.TimeLimit;
+        let timeLeft = localStorage.getItem('timeLeft') ? parseInt(localStorage.getItem('timeLeft')) : initialTime;
+        let actionId = @Html.Raw(Json.Serialize(Model.ActionId));
+        const countdownElement = document.getElementById('countdown');
+
+        const countdownTimer = setInterval(() => {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            countdownElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            if (timeLeft <= 0) {
+                clearInterval(countdownTimer);
+                alert("Vaxtınız bitdi.İştirak üçün təşəkkürlər.");
+                localStorage.removeItem('timeLeft');
+                localStorage.removeItem('visibleDiv');
+                localStorage.removeItem('selectedIndex');
+                window.location.href = "/Cv?actionId=" + actionId;
+            } else {
+                timeLeft--;
+                localStorage.setItem('timeLeft', timeLeft);
+            }
+        }, 1000);
+
+        function setVisibility(divId) {
+            const messages = document.querySelectorAll('.question');
+            messages.forEach(div => {
+                div.style.display = (div.id === divId) ? 'block' : 'none';
+            });
+            localStorage.setItem('visibleDiv', divId);
+        }
+
+        function loadVisibleDiv() {
+            if (!localStorage.getItem('selectedIndex')) {
+                alert("Hər sual üçün 1 dəqiqə vaxtınız var.Cavablandırılan suala geri qayıtmaq mümkün deyil.Təşəkkürlər")
+            }
+            var selectedIndex = localStorage.getItem('selectedIndex') || 0;
+            localStorage.setItem("selectedIndex", selectedIndex)
+            var questions = @Html.Raw(Json.Serialize(Model.Questions));
+            const visibleDiv = localStorage.getItem('visibleDiv') || questions[selectedIndex].id;
+            setVisibility(visibleDiv);
+        }
+
+        loadVisibleDiv();
+
+        
+        function confirm() {
+            let selectedIndex = parseInt(localStorage.getItem('selectedIndex')); 
+            let questions = @Html.Raw(Json.Serialize(Model.Questions));
+
+            const currentQuestion = questions[selectedIndex];
+            const selectedAnswer = document.querySelector(`input[name="question_${currentQuestion.id}"]:checked`);
+            if (!selectedAnswer) {
+                alert("Bir cavab seçin");
+                return;
+            }
+
+
+            const answerId = selectedAnswer.value;
+           
+
+            let actionId = @Html.Raw(Json.Serialize(Model.ActionId));
+            const dataToSend = {
+                actionId: actionId,
+                answerId: answerId,
+                questionId: currentQuestion.id
+            };
+
+            fetch('http://vms.somee.com/api/out/ToAnswer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dataToSend)
+            }).then(data => {
+
+                selectedIndex++;
+
+                if (selectedIndex < questions.length) {
+                    localStorage.setItem("selectedIndex", selectedIndex);
+                    var nextQuestionId = questions[selectedIndex].id;
+                    setVisibility(nextQuestionId);
+                } else {
+                    alert("Imtahan bitdi.Təşəkkürlər");
+                    localStorage.removeItem('visibleDiv');
+                    localStorage.removeItem('selectedIndex');
+                    localStorage.removeItem('timeLeft');
+                    window.location.href = "/Cv?actionId="+actionId
+                }
+
+            });
+
+
+        }
+
+
+
+    </script>
+}

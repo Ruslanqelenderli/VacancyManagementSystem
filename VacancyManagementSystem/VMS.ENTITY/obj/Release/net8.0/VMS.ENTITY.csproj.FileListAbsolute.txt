@@ -1,0 +1,12 @@
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\bin\Release\net8.0\VMS.ENTITY.deps.json
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\bin\Release\net8.0\VMS.ENTITY.dll
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\bin\Release\net8.0\VMS.ENTITY.pdb
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.AssemblyInfoInputs.cache
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.AssemblyInfo.cs
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.csproj.CoreCompileInputs.cache
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.sourcelink.json
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.dll
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\refint\VMS.ENTITY.dll
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\VMS.ENTITY.pdb
+D:\VMS\VacancyManagementSystem\VMS.ENTITY\obj\Release\net8.0\ref\VMS.ENTITY.dll
